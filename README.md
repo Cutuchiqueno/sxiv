@@ -1,3 +1,5 @@
+_this is just a fork for my personal modifications of config.h_
+
 ![sxiv](http://muennich.github.com/sxiv/img/logo.png "sxiv")
 
 **Simple X Image Viewer**
