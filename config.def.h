@@ -14,11 +14,11 @@ static const char * const BAR_FONT = "monospace:size=8";
 /* colors:
  * (see X(7) section "COLOR NAMES" for valid values)
  */
-static const char * const WIN_BG_COLOR = "#555555";
-static const char * const WIN_FS_COLOR = "#000000";
-static const char * const SEL_COLOR    = "#EEEEEE";
-static const char * const BAR_BG_COLOR = "#222222";
-static const char * const BAR_FG_COLOR = "#EEEEEE";
+static const char * const WIN_BG_COLOR = "#272822";
+static const char * const WIN_FS_COLOR = "#272822";
+static const char * const SEL_COLOR    = "#a6e22e";
+static const char * const BAR_BG_COLOR = "#282820";
+static const char * const BAR_FG_COLOR = "#f9f8f5";
 
 #endif
 #ifdef _IMAGE_CONFIG
@@ -54,10 +54,10 @@ static const bool ALPHA_LAYER = false;
 #ifdef _THUMBS_CONFIG
 
 /* thumbnail sizes in pixels (width == height): */
-static const int thumb_sizes[] = { 32, 64, 96, 128, 160 };
+static const int thumb_sizes[] = { 32, 64, 96, 128, 160, 192, 224 };
 
 /* thumbnail size at startup, index into thumb_sizes[]: */
-static const int THUMB_SIZE = 3;
+static const int THUMB_SIZE = 6;
 
 #endif
 #ifdef _MAPPINGS_CONFIG
